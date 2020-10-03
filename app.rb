@@ -2,7 +2,7 @@ require_relative 'config/environment'
 require_relative 'models/text_analyzer.rb'
 
 class App < Sinatra::Base
-  get '/index' do
+  get '/' do
     erb :index
   end
 
